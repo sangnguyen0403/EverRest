@@ -82,7 +82,7 @@ header{
     font-size: 3rem ;
 }
 
-.personal_info,.group_process, .career_plan{
+.personal_info,.group_process, .career_plan, .career_plan{
     padding: 120px 16%;
     background: #f9f9f9;
 }
@@ -100,11 +100,13 @@ header{
 
 .personal_info-content{
     color: black;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(370px,auto));
+    display: inline-grid;
+    grid-template-columns: repeat(2,minmax(370px,auto));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 4.0rem;
+    width: 100%;
+    grid-row: 1/ span 2
 }
 
 .box{
@@ -116,6 +118,10 @@ header{
     transition: all .35s;
     border-radius: 5px;
     padding: 45px 30px;
+    display: inline-flex;
+    max-width: 600px;
+    max-height: 600px;
+    flex-direction: column;
 }
 
 .box h4{
