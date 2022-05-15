@@ -49,7 +49,7 @@ header{
 .navbar_list a::after{
     content: "";
     position: absolute;
-    background: #0456ef;
+    background: #649cbc;
     width: 0;
     height: 2px;
     left: 0;
@@ -110,7 +110,7 @@ header{
 }
 
 .box{
-    color:#0456ef;
+    color:#649cbc;
     font-size: 2.8rem;
     margin-bottom: 18px;
     background: #ffffff;
@@ -162,7 +162,7 @@ header{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #0456ef;
+    color: #646cbc;
 }
 
 .row p{
@@ -173,7 +173,7 @@ header{
 
 .row:hover{
     transform: translateX(5px);
-    border-left: 10px solid #0456ef;
+    border-left: 10px solid #646cbc;
 }
 
 .career_plan-desc{
@@ -212,5 +212,5 @@ header{
 }
 
 .career_row h4{
-    color:#0456ef;
+    color: #646cbc;;
 }
