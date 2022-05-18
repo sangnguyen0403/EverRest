@@ -34,13 +34,12 @@ header{
 }
 
 .navbar img{
-    width: 140px;
+    width: 100px;
 }
 
 .group_name{
     text-decoration: none;
     font-size: 30px;
-    flex: 1;
 }
 
 .navbar_list{
